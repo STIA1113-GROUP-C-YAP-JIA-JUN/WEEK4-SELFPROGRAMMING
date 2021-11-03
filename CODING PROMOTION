@@ -1,0 +1,12 @@
+package selfProgramming;
+
+public class CODINGPROMOTION {
+
+	public static void main(String[] args) {
+		
+		int discount = 16;
+		double sum = 499.37;
+		double result = sum / discount;
+		
+		System.out.println("Promotion = " + result);
+		System.out.printf("Promotion = %.2f" , result);
