@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class CODINGASSIGNMENTCONVERSION {
+
+	public static void main(String[] args) {
+		
+		int ringgit = 18; 
+		double dollars = 5.85;
+		int rupiah = 10000000;
+		double money1 = ringgit;
+		double money2 = dollars;
+		double money3 = rupiah;
+		
+		System.out.println("Please pay for the Kentucky Dinner Plate : " + "RM" +  money1); 
+		System.out.printf("Price for a packet of nuts : %.2f" , money2);
+		System.out.println();
+		System.out.println("RM 2904.19 is the value as :" + money3 + "rupiah");
