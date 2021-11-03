@@ -1,0 +1,11 @@
+package selfProgramming;
+
+public class CODINGCASTING {
+
+	public static void main(String[] args) {
+		
+		int total = 45;
+		float result = (float) total / 6;
+		
+		System.out.println(" result : ");
+		System.out.printf("%.2f" , result);
